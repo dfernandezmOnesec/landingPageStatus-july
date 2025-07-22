@@ -440,31 +440,6 @@
     transform: scale(1.1);
 }
 
-/* Barra de búsqueda */
-.search-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.search-input {
-    background: rgba(255, 255, 255, 0.9);
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    width: 200px;
-    font-size: 14px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.search-input:focus {
-    outline: none;
-    width: 250px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
 /* Resumen Ejecutivo */
 .executive-summary {
     margin: 20px 0;
@@ -1303,4 +1278,6 @@
 
 .card:hover, .criteria-card:hover, .ip-point:hover, .expense-card:hover {
     cursor: pointer;
+    box-shadow: 0 0 0 4px #6fcf97, 0 8px 24px rgba(111, 207, 151, 0.18), 0 1.5px 6px rgba(0,0,0,0.08);
+    transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1), transform 0.3s cubic-bezier(.25,.8,.25,1);
 } 
