@@ -1300,3 +1300,7 @@
 .dark-mode .evaluation-explanation-text {
     color: #fff !important;
 } 
+
+.card:hover, .criteria-card:hover, .ip-point:hover, .expense-card:hover {
+    cursor: pointer;
+} 
